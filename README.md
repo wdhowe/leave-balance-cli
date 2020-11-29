@@ -1,5 +1,7 @@
 # leave-balance-cli
 
+[![Build Status][gh-actions-badge]][gh-actions] [![Clojure version][clojure-v]](project.clj)
+
 Calculate PTO/leave balance at the end of the year and how much will be lost if none is taken.
 
 ## Prerequisites
@@ -78,3 +80,11 @@ Public License, v. 2.0 are satisfied: GNU General Public License as published by
 the Free Software Foundation, either version 2 of the License, or (at your
 option) any later version, with the GNU Classpath Exception which is available
 at `https://www.gnu.org/software/classpath/license.html`.
+
+----
+
+<!-- Named page links below: /-->
+
+[gh-actions-badge]: https://github.com/wdhowe/leave-balance-cli/workflows/ci%2Fcd/badge.svg
+[gh-actions]: https://github.com/wdhowe/leave-balance-cli/actions
+[clojure-v]: https://img.shields.io/badge/clojure-1.10.0-blue.svg
